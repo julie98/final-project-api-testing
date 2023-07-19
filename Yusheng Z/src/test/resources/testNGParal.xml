@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="parallel test in testng" thread-count="4">
+    <test name="test parallel" enabled="true" parallel="true">
+        <classes>
+            <class name="testRunner">
+            </class>
+        </classes>
+    </test>
+    <test name="test serial" enabled="true" parallel="false">
+        <classes>
+            <class name="testRunner">
+            </class>
+        </classes>
+    </test>
+</suite>
