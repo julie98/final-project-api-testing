@@ -3,8 +3,7 @@ package constants;
 import utils.ApplicationProperties;
 
 public enum URL {
-    USER("/user"),
-    TODOS("/todos");
+    USER("/user");
 
     private final String url;
 
