@@ -5,6 +5,7 @@ import utils.ApplicationProperties;
 public enum URL {
     USER("/user");
 
+
     private final String url;
 
     URL(String path) {
