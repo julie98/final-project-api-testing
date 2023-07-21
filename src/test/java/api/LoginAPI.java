@@ -22,7 +22,7 @@ public class LoginAPI {
                 .build();
     }
 
-    private String encodeCredentials(String username, String password) {
+    public static String encodeCredentials(String username, String password) {
         String credentials = username + ":" + password;
         return java.util.Base64.getEncoder().encodeToString(credentials.getBytes());
     }
@@ -36,5 +36,12 @@ public class LoginAPI {
                 .body(credentials)
                 .when()
                 .post("/1/session");
+    }
+
+    public Response getCurrentUser() {
+        return given(requestSpec)
+                .contentType(ContentType.JSON)
+                .when()
+                .get("/1/session");
     }
 }
