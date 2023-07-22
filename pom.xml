@@ -91,6 +91,11 @@
             <artifactId>cucumber-reporting</artifactId>
             <version>5.7.5</version>
         </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20210307</version>
+        </dependency>
     </dependencies>
 
 </project>

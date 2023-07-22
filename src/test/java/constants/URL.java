@@ -3,7 +3,11 @@ package constants;
 import utils.ApplicationProperties;
 
 public enum URL {
-    USER("/user");
+
+    AUTH("/auth"),
+    PROJECT_ROLE("/api/2/role"),
+    PROJECT("/api/2/project"),
+    PERMISSION_SCHEME("/api/2/permissionscheme");
 
 
     private final String url;
