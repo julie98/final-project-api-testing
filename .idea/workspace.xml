@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="204311f5-4a56-4e4f-84f3-0ef83c64bf22" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/PermissionSchemeAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/ProjectAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/ProjectAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/ProjectRoleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/ProjectRoleAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/constants/URL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/constants/URL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/entity/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entity/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/entity/ProjectRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entity/ProjectRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/entity/ProjectRoleResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entity/ProjectRoleResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/ProjectRoleManagementSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/ProjectRoleManagementSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/projectRoleManagement.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/projectRoleManagement.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +30,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -39,14 +51,44 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/zhy/IdeaProjects/SDETesting/final-project-api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Cucumber.js.projectRoleManagement.feature">
+    <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="final-project-api" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="projectRoleManagement.feature" type="cucumber.js" factoryName="Cucumber.js" temporary="true">
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/features/projectRoleManagement.feature" />
+      <option name="myNameFilter" />
+      <option name="cucumberJsArguments" value="" />
+      <option name="workingDirectory" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestRunner" />
+        <item itemvalue="Cucumber.js.projectRoleManagement.feature" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,6 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689790966689</updated>
       <workItem from="1689790968333" duration="1498000" />
+      <workItem from="1689795802478" duration="50480000" />
     </task>
     <servers />
   </component>

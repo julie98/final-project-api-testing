@@ -6,7 +6,8 @@ public enum URL {
 
     AUTH("/auth"),
     PROJECT_ROLE("/api/2/role"),
-    PROJECT("/api/2/project");
+    PROJECT("/api/2/project"),
+    PERMISSION_SCHEME("/api/2/permissionscheme");
 
     private final String url;
 

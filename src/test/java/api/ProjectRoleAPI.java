@@ -1,46 +1,52 @@
 package api;
 
 import constants.URL;
+import entity.ProjectRole;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
+import io.restassured.http.Header;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import io.restassured.http.Header;
 
-import java.util.HashMap;
-import java.util.Map;
-
+import static api.LoginAPI.encodeCredentials;
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.request;
+import static io.restassured.http.Cookies.cookies;
 
-public class ProjectRole {
-    private final RequestSpecification requestSpec = new RequestSpecBuilder()
+public class ProjectRoleAPI {
+    private static final String adminUsername = "hzhu64";
+    private static final String adminPassword = "Zhy123321!";
+
+    private static final RequestSpecification requestSpec = new RequestSpecBuilder()
             .setBaseUri(URL.PROJECT_ROLE.toString())
+            .addHeader("Authorization", "Basic " + encodeCredentials(adminUsername, adminPassword))
             .setContentType(ContentType.JSON)
             .build();
 
-//    private static final String username_Team_Lead = "julie";
-//    private static final String password_Team_Lead = "12345";
-//
-//    private static Header authHeader_Team_Lead = new Header("Authorization", "Basic " +
-//            encodeCredentials(username_Team_Lead, password_Team_Lead));
+    Response loginResponse = new LoginAPI(adminUsername, adminPassword).loginUser(adminUsername, adminPassword);
 
-    private static String encodeCredentials(String username, String password) {
-        String credentials = username + ":" + password;
-        return java.util.Base64.getEncoder().encodeToString(credentials.getBytes());
-    }
-
-    public Response createProjectRole(String name, String description) {
-        Map<String, String> requestBody = new HashMap<>();
-        requestBody.put("name", name);
-        requestBody.put("description", description);
-
-
+    public Response createProjectRole(ProjectRole projectRole) {
         return given(requestSpec)
-                .body(requestBody)
+                .cookies(loginResponse.getCookies())
+                .body(projectRole)
                 .when()
                 .post();
     }
 
-    public Response getProjectRole
+    public Response getProjectRoles() {
+        return given(requestSpec)
+                .cookies(loginResponse.getCookies())
+                .when()
+                .get();
+    }
+
+    public Response deleteProjectRoleCreated(int projectRoleId) {
+        int swapId = 10002; // to do
+        return given(requestSpec)
+                .cookies(loginResponse.getCookies())
+                .pathParam("projectRoleId", projectRoleId)
+                .pathParam("swapId", swapId) // should be pathParam, not queryParam
+                .when()
+                .delete("/{projectRoleId}?swap={swapId}"); // swap to the default admin user
+    }
 }
