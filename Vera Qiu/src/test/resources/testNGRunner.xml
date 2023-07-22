@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Issue Test Suite">
+    <test name="Team Lead User Test">
+        <classes>
+            <class name="StepDef.issueTestStepDef">
+                <methods>
+                    <include name="iamSignedInAsATeamLeadUser"/>
+                    <include name="iCreatedIssuesThatBelongToDifferentEpicsAndPrioritiesInTheBacklog"/>
+                    <include name="iCanSpecifyTheBlockingRelationshipBetweenDifferentIssues"/>
+                    <include name="iCanAssignIssuesToDifferentUsers"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Developer User Test">
+        <classes>
+            <class name="StepDef.issueTestStepDef">
+                <methods>
+                    <include name="iamSignedInAsADeveloper"/>
+                    <include name="iCanViewAllTheIssuesAssignedToMe"/>
+                    <include name="iCanAddCommentsToAnIssue"/>
+                    <include name="iCanUpdateTheCommentToAnIssue"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
