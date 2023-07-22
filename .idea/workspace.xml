@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
 
+
     <list default="true" id="204311f5-4a56-4e4f-84f3-0ef83c64bf22" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/test/java/api/PermissionSchemeAPI.java" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/api/ProjectAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/ProjectAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/api/ProjectRoleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/ProjectRoleAPI.java" afterDir="false" />
@@ -133,6 +135,8 @@
       <workItem from="1689796571228" duration="19160000" />
       <workItem from="1689861741188" duration="11945000" />
 
+      <workItem from="1690034427114" duration="4579000" />
+
     </task>
     <task id="LOCAL-00001" summary="first version of sprint management">
       <created>1689878848279</created>
@@ -141,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689878848279</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second version of sprint management">
+      <created>1690034533211</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690034533211</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +184,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first version of sprint management" />
-    <option name="LAST_COMMIT_MESSAGE" value="first version of sprint management" />
+    <MESSAGE value="second version of sprint management" />
+    <option name="LAST_COMMIT_MESSAGE" value="second version of sprint management" />
   </component>
 
 </project>
