@@ -9,6 +9,7 @@ public enum URL {
     PROJECT("/api/2/project"),
     PERMISSION_SCHEME("/api/2/permissionscheme");
 
+
     private final String url;
 
     URL(String path) {
