@@ -19,6 +19,15 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/ProjectRoleManagementSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/ProjectRoleManagementSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/projectRoleManagement.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/projectRoleManagement.feature" afterDir="false" />
 
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/SprintAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/entity/Issues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/entity/Sprint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/entity/SprintResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/entity/SprintState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SprintSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/sprint.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +61,11 @@
         <option name="repository" value="final-project-api-testing" />
       </RepoCoordinatesHolder>
     </option>
+
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="4340477b-49c0-4458-b997-ba5d424b43e2" />
-        <option name="url" value="https://github.com/julie98/final-project-api-testing.git" />
+        <option name="accountId" value="d08108d5-a2ad-4a91-8fe0-4a05997343ed" />
+        <option name="url" value="git@github.com:julie98/final-project-api-testing.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -73,25 +83,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/zhy/IdeaProjects/SDETesting/final-project-api&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/zhy/IdeaProjects/SDETesting/final-project-api-testing/src/test/resources/features",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Cucumber.js.projectRoleManagement.feature">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/features" />
+      <recent name="$PROJECT_DIR$/src/test/java/entity" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="stepDefinitions" />
+      <recent name="api" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestRunner">
     <configuration name="TestRunner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="final-project-api" />
       <option name="PACKAGE_NAME" value="" />
@@ -137,6 +157,8 @@
 
       <workItem from="1690034427114" duration="4579000" />
 
+      <workItem from="1689795802478" duration="50480000" />
+      <workItem from="1690043642863" duration="2259000" />
     </task>
     <task id="LOCAL-00001" summary="first version of sprint management">
       <created>1689878848279</created>
@@ -181,11 +203,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="first version of sprint management" />
-    <MESSAGE value="second version of sprint management" />
-    <option name="LAST_COMMIT_MESSAGE" value="second version of sprint management" />
   </component>
 
 </project>
