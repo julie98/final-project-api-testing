@@ -15,8 +15,8 @@ import java.util.HashMap;
 import static io.restassured.RestAssured.given;
 
 public class SprintAPI {
-    static String adminUsername = "hzhu64";
-    static String adminPassword = "Zhy123321!";
+    static String adminUsername = "haoyu";
+    static String adminPassword = "12345";
     static Header authHeader = new Header("Authorization", "Basic " + encodeCredentials(adminUsername, adminPassword));
 
     static Response response = new LoginAPI(adminUsername, adminPassword).loginUser(adminUsername, adminPassword);

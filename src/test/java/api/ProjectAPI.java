@@ -18,8 +18,8 @@ import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.request;
 
 public class ProjectAPI {
-    private static final String adminUsername = "hzhu64";
-    private static final String adminPassword = "Zhy123321!";
+    private static final String adminUsername = "haoyu";
+    private static final String adminPassword = "12345";
     private final static RequestSpecification requestSpec = new RequestSpecBuilder()
             .setBaseUri(URL.PROJECT.toString())
             .addHeader("Authorization", "Basic " + encodeCredentials(adminUsername, adminPassword))

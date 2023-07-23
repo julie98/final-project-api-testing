@@ -4,30 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
-
     <list default="true" id="204311f5-4a56-4e4f-84f3-0ef83c64bf22" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/PermissionSchemeAPI.java" afterDir="false" />
-
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/PermissionSchemeAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/PermissionSchemeAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/api/ProjectAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/ProjectAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/api/ProjectRoleAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/ProjectRoleAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/constants/URL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/constants/URL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/entity/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entity/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/entity/ProjectRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entity/ProjectRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/entity/ProjectRoleResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entity/ProjectRoleResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/ProjectRoleManagementSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/ProjectRoleManagementSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/projectRoleManagement.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/projectRoleManagement.feature" afterDir="false" />
-
-      <change afterPath="$PROJECT_DIR$/src/test/java/api/SprintAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/entity/Issues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/entity/Sprint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/entity/SprintResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/entity/SprintState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SprintSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/sprint.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/SprintAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/SprintAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/groupManagementSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/groupManagementSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/userManagementSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/userManagementSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +46,6 @@
         <option name="repository" value="final-project-api-testing" />
       </RepoCoordinatesHolder>
     </option>
-
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="d08108d5-a2ad-4a91-8fe0-4a05997343ed" />
@@ -89,7 +73,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/zhy/IdeaProjects/SDETesting/final-project-api-testing/src/test/resources/features",
+    "last_opened_file_path": "/Users/zhy/IdeaProjects/SDETesting/final-project-api-testing",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -132,13 +116,7 @@
     </configuration>
     <recent_temporary>
       <list>
-
-        <item itemvalue="TestNG.SprintStepDef.theSprintShouldBeInTheState" />
-        <item itemvalue="TestNG.SprintStepDef.iStartTheSprint" />
-        <item itemvalue="TestNG.SprintStepDef.iMoveIssuesFromTheBacklogToTheCurrentSprint" />
-        <item itemvalue="Cucumber Java.Scenario: After I log in as a team leader, I can perform sprint management" />
-        <item itemvalue="Cucumber Java.Feature: sprint" />
-
+        <item itemvalue="TestNG.TestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -151,14 +129,12 @@
       <option name="presentableId" value="Default" />
       <updated>1689790966689</updated>
       <workItem from="1689790968333" duration="1498000" />
-
       <workItem from="1689796571228" duration="19160000" />
       <workItem from="1689861741188" duration="11945000" />
-
       <workItem from="1690034427114" duration="4579000" />
-
       <workItem from="1689795802478" duration="50480000" />
       <workItem from="1690043642863" duration="2259000" />
+      <workItem from="1690095270971" duration="492000" />
     </task>
     <task id="LOCAL-00001" summary="first version of sprint management">
       <created>1689878848279</created>
@@ -180,7 +156,6 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -204,5 +179,4 @@
       </map>
     </option>
   </component>
-
 </project>

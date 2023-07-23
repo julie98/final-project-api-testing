@@ -14,8 +14,8 @@ import static io.restassured.RestAssured.request;
 import static io.restassured.http.Cookies.cookies;
 
 public class ProjectRoleAPI {
-    private static final String adminUsername = "hzhu64";
-    private static final String adminPassword = "Zhy123321!";
+    private static final String adminUsername = "haoyu";
+    private static final String adminPassword = "12345";
 
     private static final RequestSpecification requestSpec = new RequestSpecBuilder()
             .setBaseUri(URL.PROJECT_ROLE.toString())

@@ -14,8 +14,8 @@ import java.util.HashMap;
 
 public class groupManagementSteps {
     String baseUrl = "http://localhost:8080";
-    String adminUsername = "hzhu64";
-    String adminPassword = "Zhy123321!";
+    String adminUsername = "haoyu";
+    String adminPassword = "12345";
     Response loginResponse;
     Header authHeader = new Header("Authorization", "Basic " + encodeCredentials(adminUsername, adminPassword));
 
@@ -102,15 +102,15 @@ public class groupManagementSteps {
                 .log().body().statusCode(200);
     }
 
-    @AfterClass
-    public void delete(){
-        Response response = RestAssured
-                .given()
-                .header(authHeader)
-                .cookies(loginResponse.getCookies())
-                .queryParam("groupname", "group2") // todo
-                .when()
-                .basePath("/rest/api/2/group")
-                .delete();
-    }
+//    @AfterClass
+//    public void delete(){
+//        Response response = RestAssured
+//                .given()
+//                .header(authHeader)
+//                .cookies(loginResponse.getCookies())
+//                .queryParam("groupname", "group2") // todo
+//                .when()
+//                .basePath("/rest/api/2/group")
+//                .delete();
+//    }
 }

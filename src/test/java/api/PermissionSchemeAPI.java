@@ -12,8 +12,8 @@ import static api.LoginAPI.encodeCredentials;
 import static io.restassured.RestAssured.given;
 
 public class PermissionSchemeAPI {
-    private static final String adminUsername = "hzhu64";
-    private static final String adminPassword = "Zhy123321!";
+    private static final String adminUsername = "haoyu";
+    private static final String adminPassword = "12345";
 
     private static final RequestSpecification requestSpec = new RequestSpecBuilder()
             .setBaseUri(URL.PERMISSION_SCHEME.toString())

@@ -18,8 +18,8 @@ import java.util.List;
 
 public class userManagementSteps {
     String baseUrl = "http://localhost:8080";
-    String adminUsername = "hzhu64";
-    String adminPassword = "Zhy123321!";
+    String adminUsername = "haoyu";
+    String adminPassword = "12345";
     Response loginResponse;
     Header authHeader = new Header("Authorization", "Basic " + encodeCredentials(adminUsername, adminPassword));
 
@@ -208,22 +208,22 @@ public class userManagementSteps {
                 .body("values.name", Matchers.hasItem("kate2")); // todo
 
     }
-    @AfterClass
-    public void deleteUser(){
-        Response response = RestAssured
-                .given()
-                .header(authHeader)
-                .queryParam("username", "kate") // todo
-                .when()
-                .basePath("/rest/api/2/user")
-                .delete();
-
-        Response response1 = RestAssured
-                .given()
-                .header(authHeader)
-                .queryParam("username", "kate2") // todo
-                .when()
-                .basePath("/rest/api/2/user")
-                .delete();
-    }
+//    @AfterClass
+//    public void deleteUser(){
+//        Response response = RestAssured
+//                .given()
+//                .header(authHeader)
+//                .queryParam("username", "kate") // todo
+//                .when()
+//                .basePath("/rest/api/2/user")
+//                .delete();
+//
+//        Response response1 = RestAssured
+//                .given()
+//                .header(authHeader)
+//                .queryParam("username", "kate2") // todo
+//                .when()
+//                .basePath("/rest/api/2/user")
+//                .delete();
+//    }
 }
