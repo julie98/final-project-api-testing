@@ -50,7 +50,7 @@ public class groupManagementSteps {
     @And("create group")
     public void createGroup() {
         HashMap<String, Object> payload = new HashMap<>();
-        payload.put("name", "group2"); // todo
+        payload.put("name", "group2"); // todo, need to delete
         Response response = RestAssured
                 .given()
                 .header(authHeader)

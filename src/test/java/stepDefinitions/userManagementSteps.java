@@ -82,7 +82,7 @@ public class userManagementSteps {
                 .given()
                 .header(authHeader)
                 .cookies(loginResponse.getCookies())
-                .queryParam("username", "kate") // todo
+                .queryParam("username", "kate") // todo, need to delete
                 .queryParam("includeDeleted", "false")
                 .when()
                 .basePath("/rest/api/2/user")
@@ -154,7 +154,7 @@ public class userManagementSteps {
     @And("Create another user")//may need if no other user inside
     public void createAnotherUser() {
         HashMap<String, Object> payload = new HashMap<>();
-        payload.put("name", "kate2"); // todo
+        payload.put("name", "kate2"); // todo, need to delete
         payload.put("password", "abracadabra");
         payload.put("emailAddress", "kate@atlassian.com");
         payload.put("displayName", "Kate of Atlassian");
