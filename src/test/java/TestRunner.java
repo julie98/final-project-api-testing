@@ -4,6 +4,7 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
         features = "classpath:features",
+//        features = "src/test/resources/features/projectManagement.feature",
         glue = "classpath:stepDefinitions",
         plugin = "html:target/cucumber-html-report.html" // file format, file path
 )

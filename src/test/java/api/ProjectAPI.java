@@ -27,13 +27,13 @@ public class ProjectAPI {
             .build();
     Response loginResponse = new LoginAPI(adminUsername, adminPassword).loginUser(adminUsername, adminPassword);
 
-    public Response createProject(Project project) {
-        return given(requestSpec)
-                .cookies(loginResponse.getCookies())
-                .body(project)
-                .when()
-                .post();
-    }
+//    public Response createProject(Project project) {
+//        return given(requestSpec)
+//                .cookies(loginResponse.getCookies())
+//                .body(project)
+//                .when()
+//                .post();
+//    }
 
     public Response addUserToAProjectRole(String username, int projectId, int roleId) {
         JSONObject requestBody = new JSONObject();
