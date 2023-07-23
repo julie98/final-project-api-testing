@@ -19,7 +19,6 @@ public class SprintAPI {
     static String adminPassword = "Zhy123321!";
     static Header authHeader = new Header("Authorization", "Basic " + encodeCredentials(adminUsername, adminPassword));
 
-//    static Response response = SprintAPI.login();
     static Response response = new LoginAPI(adminUsername, adminPassword).loginUser(adminUsername, adminPassword);
     private static String encodeCredentials(String username, String password) {
         String credentials = username + ":" + password;
